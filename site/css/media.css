@@ -1,0 +1,560 @@
+@media (min-width:2000px) {
+  .container {
+    width: 1538px;
+  }
+}
+@media (max-width: 1920px) and (min-width: 1400px) {
+  .container {
+    width: 1280px;
+  }
+  .w900 {
+    width: 900px;
+  }
+
+}
+
+
+/* ------Landing Page Css --------- */
+@media only screen and (max-width : 1500px) {
+  .motorcoach-container,.middle-section .client-wrapper,.container-footer{
+    max-width:1180px;
+  }
+  .motorcoach-services .service-card figure{
+    height:270px;
+  }
+  .motorcoach-services .service-card figcaption{
+    font-size: 26px;
+    line-height: 32px;
+  }
+  .motorcoach-services .service-card .card-description{
+    padding: 24px 20px;
+  }
+  /***************/
+  .pagebg{max-width: 80%;}
+  /***************/
+  .hotelGroupBg .hotelWrap h2{
+    font-size: 65px;
+  }
+  .hotelWrap .groupWrap h4{
+    font-size: 28px;
+    margin-bottom:20px;
+  }
+  .hotelWrap .groupWrap p{font-size: 22px;}
+}
+/* --------------- */
+@media only screen and (max-width : 1400px) {
+  .hotelGroupBg .hotelWrap h2{
+        font-size: 54px;
+    margin-bottom: 15px;
+  }
+  .hotelWrap .groupWrap h4{margin-bottom: 15px;}
+  .hotelWrap .groupWrap p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .groupWrap{margin-top: 25px;}
+}
+@media only screen and (max-width:1200px) {
+  #footer ul li a{font-size: 12px;line-height: 20px;}
+  #footer h5 {font-size: 14px;}
+  .hotelGroupBg h2{
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+  .hotelGroupBg .hotelWrap h2{font-size: 50px;}
+  .hotelWrap .groupWrap h4{font-size: 25px;}
+  .hotelWrap .groupWrap p {
+    font-size: 18px;
+    line-height: 26px;
+  }
+}
+
+@media only screen and (max-width:1024px) {
+  .hotelGroupBg .bookingForm {
+    padding: 25px 15px;
+  }
+}
+
+@media only screen and (min-width : 992px) and (max-width : 1199px) {
+  #topNavbar .navbar-nav > li{padding-left: 7px; padding-right: 7px;}
+  .mainContainer .blankSpace{height: 272px;}
+  .corportateIcon{margin-right: -15px;}
+  .corportateIcon li .icon{width: 30px; height: 30px; margin-left: 5px;}
+  .corportateIcon li:first-child span{max-width: 65px;}
+  .corportateIcon li span{letter-spacing: -0.6px; line-height: 14px;}
+  
+}
+@media only screen and (max-width : 1199px) {
+  .charterRentalBanner h1{margin-top: 35px;}
+  .bus-TabContainer .nav > li > a{font-size: 20px; line-height: 25px; padding: 5px 5px 5px 7px;}
+  .priceCounter h3{font-size: 32px;}
+  /* ------Landing Page Css --------- */
+  .banner-section{height: 750px;}
+  .banner-section .banner-block{max-width:900px;}
+  .banner-section .banner-info{margin-top: 25px;}
+  .banner-section h3{font-size:32px;margin:25px 0;}
+  /* .banner-section .banner-info .contact-btn{padding: 18px 0 16px;max-width: 300px;} */
+  .banner-section .banner-info .contact-btn::before, .quote-wrapper .call-us-btn::before{left: 23px;width: 24px;
+    height: 23px;}
+  .banner-section p{font-size:22px;}
+  .motorcoach-container,.middle-section .client-wrapper,.container-footer{max-width:990px;}
+  .motorcoach-services{padding-top: 80px;}
+  .motorcoach-services .service-card .card-description p{font-size: 16px;line-height: 25px;}
+  .motorcoach-services .service-card .card-description{min-height:230px;}
+  .motorcoach-services .service-card figcaption{font-size: 24px;padding-right: 40px;}
+  .motorcoach-services .service-card figure{height: 235px;}
+  .middle-section .contact-details-wrapper{padding: 50px 0;}
+  .quote-wrapper h1{font-size: 28px;}
+  .quote-wrapper .call-us-btn,.banner-section .banner-info .contact-btn{font-size: 26px;padding: 18px 20px 16px 70px;}
+  .motorcoach-services .motorcoach-header h1{font-size: 38px;margin-bottom: 10px;}
+  .motorcoach-services .motorcoach-header p{font-size:23px;}
+  .client-carousel .client-item{padding:0 35px;}
+  .middle-section .client-wrapper h1{font-size:38px;}
+  .middle-section .client-wrapper .slick-prev::before,.middle-section .client-wrapper .slick-next::before{width:15px;height:28px;}
+  .buses-img-wrapper{max-width:600px; }
+}
+@media only screen and (min-width: 768px) and (max-width: 1199px){
+  #topNavbar .navbar-nav > li .dropdown-menu li a{
+    font-size:11px;
+  }
+  #topNavbar .navbar-nav > li > a {
+      font-size: 11px;
+  }
+  /***************/
+  .pagebg{max-width: 100%;}
+  .titleTxt{font-size: 24px;margin-bottom: 15px;}
+  .tempTxt{font-size: 60px;}
+  .imgWrapper .cloudImage{width: 110px;height: 56px;}
+  .infobox .txtDay{font-size: 18px;}
+  .highlowTemp{margin: 10px 0px;}
+  .pagebg .imgBlock img{width: 55%;}
+  .infobox{height: 190px;}
+  .bottomboxWrap .busImage{padding-top: 176px;}
+  .bottomboxWrap .bottomBox .boxWrap h5{font-size: 18px;}
+  /***************/
+}
+@media only screen and (max-width : 991px) {
+  .breadcrumb li:first-child a{font-size: 18px;}
+  #topNavbar{
+        padding: 8px 0px;
+  }
+  #topNavbar .navbar-toggle.newToggle {
+    background-color: #fd6a22;
+    display: block !important;
+    margin-right: 0px;
+}
+#topNavbar .phoneCallBox {
+    display: block;
+    max-width: 190px;
+    margin: auto;
+    border-radius: 5px;
+    background: #2694AB;
+    padding: 1px 5px 0;
+}
+#topNavbar .navbar-nav > li .dropdown-menu li a {
+    font-size: 14px;
+    margin-top: 0px;
+    padding: 10px 20px;
+    font-weight: 400;
+}
+  #topNavbar .navbar-brand{max-width: 110px; height: auto; margin-top: 0;}
+  #topNavbar .navbar-nav > li{padding-left: 5px; padding-right: 5px;}
+  #topNavbar .navbar-nav > li.phone-number{padding-left: 12px;}
+  #topNavbar .navbar-nav > li.phone-number a{font-size: 16px;}
+  .mainContainer .blankSpace{display: none;}
+  .nationCityListing h3{font-size: 20px;}
+  .buses-details .blank-bg{top: 104px;}
+  .bus-TabContainer .nav > li{width: 20%;}
+  .bus-TabContainer .nav > li > a{font-size: 18px;}
+  .businfo-details > h2{margin-bottom: -20px;}
+  .buses-details .viewdetail,
+  .businfo-details .viewdetail{display: block;}
+  .buses-details .viewdetail a,
+  .businfo-details .viewdetail a{margin: 15px 2px;}
+  .charterBusServices ul li{width: 33%;}
+  #footer ul li .phoneCallBox .wrapper .phoneIcon{font-size: 30px;}
+  #footer ul li .phoneCallBox .wrapper p{font-size: 12px;}
+  #footer ul li .phoneCallBox .wrapper h4{font-size: 18px;}
+  #footer ul li .phoneCallBox{padding: 0 5px;}
+
+  /* ---------------- Landing Page Css ----------------- */
+  .banner-section .banner-block{max-width: 700px;padding-left:15px;padding-right:15px;}
+  .banner-section .right-info{top: 15px;}
+  .motorcoach-container,.middle-section .client-wrapper,.container-footer{max-width:800px;padding-left:15px;padding-right:15px;}
+  .motorcoach-services .motorcoach-header{max-width: 650px;margin-bottom:0;}
+  .motorcoach-services .motorcoach-header h1{font-size: 32px;}
+  .motorcoach-services .motorcoach-header p{font-size:21px;}
+  .motorcoach-services .service-card .card-description {min-height: 200px;}
+  .client-carousel .client-item{padding:0 15px;}
+  .landing-footer{padding: 170px 0 10px;}
+  .landing-footer .copyright-info{font-size:15px;padding-top: 10px;margin-top: 15px;}
+  .banner-section {height: 680px;}
+  .motorcoach-services .service-card{margin-top:30px;}
+  .banner-section h3{font-size: 25px;margin: 23px 0 15px;}
+  .banner-section p{font-size: 19px;}
+  .middle-section .fact-wrapper .fact-block .fact-icon{width: 80px;height: 80px;padding:20px;}
+  .quote-wrapper .call-us-btn, .banner-section .banner-info .contact-btn{margin-top:20px;}
+  .landing-footer .logo-footer{max-width:160px;}
+  .landing-footer .social-list li a{width:40px;height:40px;}
+  .middle-section .fact-wrapper .fact-block .value-span{font-size:34px;}
+  .middle-section .fact-wrapper .fact-block .value-span.plus-span::after{font-size:38px;}
+  .middle-section .fact-wrapper .fact-block .type-span{font-size:23px;}
+  .buses-img-wrapper{max-width:400px; }
+  #topNavbar .navbar-nav > li.open,
+  #topNavbar .navbar-nav > li .dropdown-menu{
+    box-shadow: none;
+  }
+  #topNavbar .navbar-nav > li .dropdown-menu{
+    position: static;
+  }
+  #topNavbar .navbar-nav,
+  #topNavbar .navbar-nav > li .dropdown-menu{
+    width: 100%;
+  }
+  /*#topNavbar .navbar-nav > li.phone-number a{
+    text-align: left;
+  }*/
+  #topNavbar .navbar-nav > li.dropdown{
+    margin-top: 0;
+  }
+  /***************************/
+  .bottomboxWrap .busImage {
+  padding-top: 130px;
+  }
+  .infobox {
+  height: 170px;
+  }
+  
+  /***************************/
+  /*tracking Page*/
+  .trackingSection .trackingWrapper .trackinfTxt{font-size: 26px;margin-top: 15px;margin-bottom: 25px;}
+  .trackingSection .trackingWrapper p{font-size: 20px;}
+  .trackingSection .trackingWrapper .trackingList ul li{font-size: 18px;}
+  .trackingBtn{margin: 22px auto;}
+  .trackingSection {padding: 35px 0px;}
+  /****************/
+  .copyrightWrap p.pb-0{
+      max-width: 590px;
+    }
+  .groupWrap {
+    max-width: 100%;
+    padding: 25px 30px;
+  }
+  .hotelGroupBg .bookingForm{margin-top: 40px;}
+  .hotelGroupBg .bookingForm .form-group{margin-bottom: 20px;}
+  .hotelGroupBg h2{margin-bottom: 15px;}
+  .hotelGroupBg{padding: 50px 0px;}
+  .hotelGroupBg .hotelWrap h2{font-size: 42px;}
+}
+@media only screen and (min-width : 992px) {
+  .mainContainer .rightCol{margin-left: 15px;}
+  .headerContainer .banerImage_container{margin: -20px 12% 0 0;}
+  
+  
+}
+@media only screen and (min-width : 768px) {
+  .charterRentalBanner .corportateIcon li{display: block;}
+  .charterRentalBanner .rightCol{float: right;}
+  .buses-details .charterBusListing li{margin: 65px -2px 0;display: inline-block;float: none;vertical-align: top;}
+  .msg-content{margin-top: 200px;}
+  .headerContainer .bookingForm.mt-form{
+    margin-top: 85px;
+  }
+.headerContainer .bookingForm .btn-primary, .hotelGroupBg .bookingForm .btn-primary{font-size: 20px;}
+
+}
+@media only screen and (max-width : 767px) {
+  body{padding-top: 92px;}
+  h1{font-size: 35px;}
+  h2{font-size: 45px;}
+  h1.h1Title, h2.h2Title{font-size: 30px;}
+  #topNavbar .navbar-brand{margin-top: 0; padding-top: 7px;}
+  #topNavbar .navbar-nav{padding: 0 12px 10px;float:left!important;}
+  #topNavbar .navbar-nav > li.phone-number a{display: inline-block; margin-top: 0;}
+  #topNavbar .navbar-nav > li.phone-number a:before{border-left: none;}
+  #topNavbar .navbar-nav > li.phone-number .subTitle{text-align: right;}
+    /*#topNavbar .navbar-toggle.newToggle {margin-right: 15px;}*/
+  .mainContainer > .container,
+  .mainContainer .middleSliderBlock > .container{padding: 0;}
+  .coachServiceListing h2{margin-bottom: 35px;}
+  .charterBusDetails ul li{margin: 45px 0;}
+  .middleSliderBlock .logo-wrapper:before{right: -15px;}
+  #footer{padding-top: 60px;}
+  .nationCityListing h3{font-size: 18px;}
+  .nationCityListing .stateList{/*height: 1550px; */-webkit-column-count: 4; -moz-column-count: 4; column-count: 4;}
+  .buses-details .blank-bg{top: 97px;}
+  .bus-TabContainer .nav > li{width: 100%; border-left: none;}
+  .bus-TabContainer .nav > li > a{font-size: 20px; padding: 10px 5px 10px 7px; border-bottom: 2px solid #698592;}
+  /*#topNavbar .phoneCallBox{max-width: 190px; margin: 5px auto; border-radius: 5px;}
+  .phoneCallBox .wrapper{padding: 4px 0 2px; line-height: 15px;}
+  #topNavbar .phoneCallBox .wrapper .phoneIcon{font-size: 25px; margin: 8px 5px 0 0;}
+  #topNavbar .phoneCallBox .wrapper p{font-size: 12px;}
+  #topNavbar .phoneCallBox .wrapper h4{font-size: 17px; margin-bottom: 0;}*/
+  .charterRentalBanner .phoneCallBox,
+  .headerContainer .phoneCallBox{padding: 0 20px;}
+  #topNavbar .phoneCallBox{ margin-right: 70px;}
+
+
+  /* ------------Landing Page Css -------------- */
+  .motorcoach-services{padding-top: 45px;}
+  .motorcoach-services .service-card figcaption{font-size: 20px;line-height: 27px;padding: 40px 25px 15px;}
+  .motorcoach-services .motorcoach-header h1{font-size:26px;}
+  .motorcoach-services .motorcoach-header p{font-size:17px;}
+  .quote-wrapper .call-us-btn,.banner-section .banner-info .contact-btn{font-size: 20px;padding: 15px 20px 13px 55px;}
+  .banner-section .banner-info .contact-btn::before, .quote-wrapper .call-us-btn::before{left: 20px;width: 19px;
+    height: 20px;}
+  .quote-wrapper h1{font-size:23px;}
+  .landing-footer .mt-60{margin-top:30px;}
+  .landing-footer .social-list{text-align: center;margin:5px 0 0;}
+  .landing-footer .social-list li:first-child{padding-left:0;}
+  .landing-footer{text-align: center;}
+  .banner-section{padding: 15px 0px 0 0;height: 600px;background-size: cover;background-position: 40%;}
+  .banner-section .banner-block{padding-top:10px;}
+  .banner-section .banner-block .banner-logo img{max-width:155px;}
+  .banner-section .right-info{position: static;padding-right:15px;}
+  .banner-section .right-info .contact-btn{font-size:16px;padding: 10px 15px 9px 40px;}
+  .banner-section .right-info .contact-btn::before{left: 10px;width: 21px;height: 22px;}
+  .banner-section small{font-size: 14px;margin-top: 3px;}
+  .banner-section h3{font-size: 20px;line-height: 26px;}
+  .banner-section p{font-size:17px;}
+  .banner-section .banner-info{margin-top: 0px;}
+  .banner-section .banner-info .contact-btn{margin-top:5px;}
+  .motorcoach-container{max-width:450px;}
+  .middle-section .fact-wrapper .fact-block{margin-bottom:25px;}
+  .middle-section .fact-wrapper .fact-block .value-span.plus-span::after,.middle-section .fact-wrapper .fact-block .value-span,.middle-section .client-wrapper h1{font-size:30px;}
+  .middle-section .fact-wrapper .fact-block .type-span{font-size:19px;}
+  .middle-section .contact-details-wrapper{padding-top:10px;}
+  .client-carousel .client-item{padding: 0 8px;}
+  .middle-section .client-wrapper .slick-prev::before, .middle-section .client-wrapper .slick-next::before{width: 12px;
+    height: 21px;}
+  .middle-section .client-carousel{padding:0 25px;}
+  .banner-section{height:auto;padding-bottom:35px;}
+  .buses-img-wrapper{position:static;transform:translateX(0%);margin:0 auto;}
+  /***************************/
+  .pagebg {max-width: 100%;}
+  .lftWrap, .rgtWrap {
+  padding: 20px 15px;
+  }
+  .bottomboxWrap .busImage {
+  padding-top: 165px;
+  }
+  .titleTxt{font-size: 24px;margin-bottom: 15px;}
+  .tempTxt{font-size: 45px;}
+  .countryName, .dateMonth{font-size: 16px;}
+  .bottomboxWrap .bottomBox .boxWrap h5{font-size: 18px;}
+  .pagebg .imgBlock img{width: 40%;}
+  .mb-20{margin-bottom: 0px;}
+  .infobox {height: 270px;margin-bottom: 15px !important;padding: 20px;}
+  /***************************/
+
+}
+@media only screen and (max-width : 600px) {
+  .mainContainer .articleBlock .blogImgRT{float: none; margin-left: 0;}
+  .buses-details .utilities ul li{width: 85px;}
+  .buses-details .utilities .ribbonTag{line-height: 23px;}
+  .buses-details .blank-bg{display: none;}
+  .charterBusServices ul li{width: 50%;}
+  .charterBusServices ul li .servicesTitle h3{font-size: 20px;}
+  .nationCityListing .stateList{/*height: 2000px; */-webkit-column-count: 3; -moz-column-count: 3; column-count: 3;}
+  #footer ul li .phoneCallBox{margin-right: -15px;}
+  .mainContainer .articleBlock img{float: none !important;display: block;margin: 0 auto;}
+  /*********************/
+  .pagebg{width: 100%;}
+  .infobox{height: 230px;    padding: 15px;}
+  .titleTxt {font-size: 22px;margin-bottom: 12px;}
+  .infobox .txtDay{font-size: 18px;}
+  .highlowTemp {margin: 10px 0px;}
+  /*********************/
+  /*tracking Page*/
+  .trackingSection .trackingWrapper .trackinfTxt{font-size: 20px;margin-top: 15px;margin-bottom: 20px;}
+  .trackingSection .trackingWrapper p{font-size: 16px;}
+  .trackingSection .trackingWrapper .trackingList ul li{font-size: 14px;}
+  .trackingBtn{margin: 20px auto;    font-size: 16px;}
+  .trackingSection {padding: 35px 0px;}
+  /****************/
+  .hotelGroupBg .hotelWrap h2{font-size: 38px;}
+  .groupWrap {
+    padding: 20px 25px;
+    margin-top: 15px;
+  }
+  .hotelWrap .groupWrap h4{font-size: 22px;}
+  .hotelWrap .groupWrap p{font-size: 16px;}
+  .hotelGroupBg h2{font-size: 22px;}
+}
+@media only screen and (max-width : 400px) {
+  .buses-details .utilities ul li{width: 75px; padding: 15px 0;}
+  .nationCityListing .stateList{/*height: 3000px; */-webkit-column-count: 2; -moz-column-count: 2; column-count: 2;}
+  #footer ul li .phoneCallBox .wrapper .phoneIcon{display: none;}
+  #footer ul li .phoneCallBox .wrapper h4{font-size: 16px;}
+  #topNavbar .phoneCallBox{width: 150px;}
+
+  #topNavbar .phoneCallBox .wrapper{margin: 1px 0;}
+
+  #topNavbar .phoneCallBox .wrapper p{font-size: 11px;}
+  #topNavbar .phoneCallBox .wrapper h4{font-size: 15px; text-align: center; margin-top: 2px;}
+  .priceCounter li .price,
+  .priceCounter li .tripDetail{width: 100%; float: none; padding-left: 0;}
+  #topNavbar .phoneCallBox .wrapper h4 {
+    font-size: 12px!important;
+  }
+  #topNavbar .phoneCallBox .wrapper p {
+      font-size: 8px !important;    margin-bottom: 0px;
+  }
+  /*****************/
+  .infobox {height: 180px;padding: 15px;}
+   #topNavbar .phoneCallBox .wrapper .phoneIcon {
+  font-size: 20px;
+  margin: 8px 3px 0 0;
+  }
+  .imgWrapper .cloudImage{    width: 100px;height: 50px;}
+
+
+  /*****************/
+}
+@media only screen and (max-width : 360px) {
+  #lastMinuteCounter h3{font-size: 30px;}
+  #lastMinuteCounter .subTitle{font-size: 11px; letter-spacing: -0.2px;}
+  .bus-TabContainer .nav > li > a{font-size: 18px;}
+  /* --------- Landing Page Css --------- */
+  .motorcoach-services .service-card figure{height:220px;}
+  #topNavbar .phoneCallBox .wrapper h4 {
+    font-size: 12px;
+  }
+  #topNavbar .phoneCallBox .wrapper p {
+      font-size: 8px;
+  }
+  #topNavbar .phoneCallBox {
+      max-width: 117px !important;
+      font-size: 9px !important;
+      margin-left: 105px !important;
+  }
+
+    #topNavbar .phoneCallBox .wrapper .phoneIcon{display: none;}
+    .hotelGroupBg .hotelWrap h2{font-size: 32px;}
+    .hotelWrap .groupWrap h4 {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .hotelWrap .groupWrap p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .hotelGroupBg .bookingForm{margin-top: 30px;}
+}
+
+/* --------- New service page --------- */
+@media screen and (max-width: 992px){
+  .sideImages {
+    width: 100%;
+    float: unset;
+  }
+  .leftImage {
+    width: 40%;
+    margin: auto;
+  }
+  .midContainer .row.topmargin {
+    margin-top: 40px;
+  }
+}
+@media (min-width: 1200px){
+  .midContainer.container{
+    width: 975px;
+  }
+}
+@media screen and (max-width: 991px){
+  #topNavbar .navbar-toggle.newToggle{
+    display: block !important;
+  }
+  #topNavbar .navbar-brand img {
+    width: 100px;
+}
+  
+  #topNavbar .navbar-header.newHeader {
+      float: none !important;    padding: 0px 15px
+  }
+
+  #topNavbar .navbar-collapse.collapse{
+    display: none !important;
+  }
+
+  #topNavbar .navbar-collapse.collapse.in{
+    display: block !important;
+  }
+  .phoneCallBox .wrapper{padding: 4px 0 2px; line-height: 15px;}
+  #topNavbar .phoneCallBox .wrapper .phoneIcon{font-size: 25px; margin: 8px 5px 0 0;}
+ 
+  #topNavbar .phoneCallBox .wrapper h4{font-size: 17px; margin-bottom: 0;}
+  /*#topNavbar .navbar-nav{
+    padding: 0 12px 10px;
+    float:left!important;
+  }*/
+  #topNavbar .navbar-nav>li{
+        float: unset !important;
+    padding: 0;
+  }
+  #topNavbar .navbar-nav>li a{
+    margin-top: 0;
+  }
+  #topNavbar ul.nav.navbar-nav {
+    padding: 0;
+    float: left;
+    margin-left: 0px;
+    background-color: #fff;
+    border: 1px solid #f5320c;
+}
+#topNavbar .navbar-nav > li > a {
+  margin: 0px;
+  padding: 10px 15px;
+  font-size: 14px;
+}
+  /*#topNavbar .navbar-collapse.collapse {
+    display: none !important;
+  }*/
+  /*.newHeader .collapse{
+    display: none;
+  }*/
+
+  .newHeader .navbar-collapse.collapse.in{
+    display: block !important;
+  }
+  .customContainerClass p:nth-child(2),
+  .customContainerClass p:nth-child(3){
+    width: 100%;
+    display: block; 
+  }
+  .customContainerClass p:nth-child(3){
+    text-align: center;
+  }
+  .customContainerClass img{
+    float: none;
+  }
+}
+@media (min-width: 768px){
+  .form-horizontal .control-label {
+    text-align: left;
+  }
+  
+}
+
+@media (max-width: 410px){
+  #footer ul li a.btn.btnCall span.title {
+    font-size: 14px;
+    line-height: 25px;
+}
+#footer h5.navTitle {
+    margin-bottom: 20px;
+}
+}
+
+@media (max-width: 410px){
+  .Service-formDIv button,
+  .Service-formDIv button:hover,
+  .Service-formDIv button:focus,
+  .Service-formDIv button:active{
+    width: 90%;
+  }
+  .google-map {
+    min-height: 65px;
+    margin-top: 0px;
+  }
+}

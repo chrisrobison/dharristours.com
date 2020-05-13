@@ -1,0 +1,1573 @@
+@media (min-width:2000px) {
+	.container {
+		width: 1538px;
+	}
+	.citiesSetion.destinationWrap .team{
+		width: 100%;
+	}
+	.citiesSetion .team {
+		width: calc(100% + 65%);
+	}
+
+	.citySection .gapTop {
+		margin-top: 150px;
+	}
+
+}
+
+@media (min-width:1920px) and (max-width:1999px) {
+	.formWrap {
+		margin: 0 auto;
+	}
+	.citiesSetion.destinationWrap .team{
+		width: 100%;
+	}
+	.citiesSetion .team {
+		width: calc(100% + 40%);
+	}
+
+}
+
+@media (min-width:1600px) and (max-width:1920px) {
+	.citiesSetion .team {
+		width: calc(100% + 40%);
+	}
+	.citiesSetion.destinationWrap .team{
+		width: 100%;
+	}
+
+}
+
+@media (min-width:1400px) and (max-width:1920px) {
+	.container {
+		width: 1280px;
+	}
+
+}
+
+@media (min-width:1400px) and (max-width:1600px) {
+	.citiesSetion .team {
+		width: calc(100% + 280px);
+	}
+	.citiesSetion.destinationWrap .team{
+		width:100%;
+	}
+
+}
+
+/* ------Landing Page Css --------- */
+@media only screen and (max-width:1500px) {
+}
+
+/* --------------- */
+@media only screen and (max-width:1400px) {
+	.mainSection h1 {
+		font-size: 60px;
+	}
+
+}
+
+@media only screen and (min-width:1200px) and (max-width:1400px) {
+	.citiesSetion .team {
+		width: calc(100% + 120px);
+	}
+	.citiesSetion.destinationWrap .team{
+		width:100%;
+	}
+
+}
+
+@media only screen and (min-width:1200px) {
+
+	/*.mainSection .boxwrap p, .boxwrap p{font-size: 12px;}*/
+	.mainSection .custWrapper .helpWrap:hover p,
+	.mainSection .custWrapper .helpWrap:focus p,
+	.custWrapper .helpWrap:hover p,
+	.custWrapper .helpWrap:focus p {
+
+		/*font-size: 12px;*/
+	}
+
+	.mainSection h1 {
+		font-size: 60px;
+	}
+	.destinationWrap.citiesSetion::after{
+		position: unset;
+	}
+	.citiesSetion::after {
+		position: absolute;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		content: "";
+		background: #f1f5f9;
+		opacity: 1;
+		width: 40px;
+		box-shadow: -10px 0 51px 50px #f1f5f9;
+	}
+
+}
+
+@media only screen and (min-width:1040px) and (max-width:1400px) {
+	.bgShadow img {
+		max-width: 460px;
+	}
+
+}
+
+@media only screen and (max-width:1200px) {
+	.mainSection h1 {
+		font-size: 53px;
+		line-height: 51px;
+	}
+
+	/*.mainSection p,
+	.charterSection p,
+	.prideSection .wrapRgt p {
+		font-size: 15px;
+		line-height: 29px;
+	}*/
+
+	#footer ul li a.btn.btnCall,
+	a.btn.btnCall {
+		font-size: 16px;
+		line-height: 34px;
+		padding: 6px 16px;
+	}
+
+	a.btn.btnCall {
+		font-size: 16px;
+		line-height: 34px;
+		padding: 0px 16px;
+	}
+
+	.coachService .callTxt,
+	.callTxt {
+		margin-left: 4px;
+		font-size: 10px;
+		line-height: 34px;
+	}
+
+	.coachService h5,
+	.mainSection h5 {
+		margin: 75px 0px 35px 0px;
+		font-size: 27px;
+		line-height: 29px;
+	}
+
+	.mainSection .boxwrap p,
+	.boxwrap p {
+		font-size: 12px;
+		line-height: 15px;
+	}
+
+	h3.title {
+		font-size: 34px;
+		line-height: 31px;
+		margin-bottom: 30px;
+	}
+
+	.chartersBlock {
+		width: 71px;
+		height: 71px;
+		box-shadow: 0px 10px 36px rgba(0, 40, 73, 0.13);
+	}
+
+	.serviceWrap h5 {
+		font-size: 27px;
+		line-height: 21px;
+	}
+
+	.coachService .callBtn {
+		font-size: 15px;
+		line-height: 26px;
+		width: 139px;
+		height: 38px;
+		border-radius: 19px;
+		background-image: linear-gradient(90deg, #26779B 0%, #2694AB 100%);
+	}
+
+	.coachService .callTxt {
+		font-size: 12px;
+	}
+
+	.bigbtn span:first-child {
+		font-size: 19px;
+		line-height: 33px;
+	}
+
+	.bigbtn {
+		font-size: 21px;
+		line-height: 33px;
+	}
+
+	.citiesSetion h5 {
+		font-size: 16px;
+		margin-bottom: 0px;
+		margin-top: 52px;
+		line-height: 33px;
+	}
+
+	.formWrap label {
+		font-size: 10px;
+		line-height: 15px;
+	}
+
+	.form-control {
+		font-size: 12px;
+		line-height: 15px;
+		height: 28px;
+	}
+
+	.col-item .carousel-caption {
+		font-size: 15px;
+		line-height: 33px;
+	}
+
+	.calbtnWrap .btnCall {
+		font-size: 15px;
+		line-height: 24px;
+		width: 139px;
+		height: 38px;
+		border-radius: 19px;
+		background-image: linear-gradient(90deg, #16849b 0%, #2694AB 100%);
+	}
+
+	
+
+	.prideSection .wrapRgt p {
+		width: 100%;
+	}
+
+	.prideSection .wrapRgt small {
+		font-size: 15px;
+		line-height: 37px;
+	}
+
+	.boxHeader {
+		font-size: 21px;
+		line-height: 33px;
+	}
+
+	.outerBox:hover .boxHeader,
+	.outerBox:focus .boxHeader {
+		font-size: 24px;
+		line-height: 33px;
+	}
+
+	.boxBody figure {
+		width: 185px;
+	}
+
+	.quotesSection .txtWrap div {
+		font-size: 28px;
+		line-height: 33px;
+	}
+
+	.quotesSection {
+		padding: 20px 0px 10px;
+	}
+
+	.quotesSection .txtWrap p {
+		font-size: 12px;
+	}
+
+	.aboutWrap .aboutTop .imgCaption {
+		font-size: 18px;
+		line-height: 24px;
+		padding: 15px;
+	}
+
+	.aboutWrap .aboutBtm {
+		padding: 10px;
+	}
+
+	.aboutWrap .aboutBtm p {
+		font-size: 12px;
+		line-height: 24px;
+	}
+
+	#footer h5 {
+		font-size: 14px;
+	}
+
+	#footer ul li a {
+		font-size: 12px;
+		line-height: 20px;
+	}
+
+	/*.mainSection p {
+		padding-top: 15px;
+	}*/
+
+	.mainSection .custWrapper .helpWrap,
+	.custWrapper .helpWrap {
+		flex: 0 0 210px;/*margin: 10px auto;*/
+	}
+
+	.mainSection .custWrapper {
+		padding-bottom: 52px;
+	}
+
+	.charterSection {
+		padding: 55px 0px;
+	}
+
+	.charterSection .charterContent {
+		margin: 0 auto 30px auto;
+	}
+
+	.coachService .busimgWrap {
+		padding-top: 80px;
+	}
+
+	.coachService .callWrap {
+		margin-top: 30px;
+	}
+
+	.partnershipWrap {
+		margin-bottom: 80px;
+	}
+
+	.prideSection,
+	.busSection,
+	.aboutSection {
+		padding: 80px 0px;
+	}
+
+	.chartersBlock {
+		padding: 12px;
+		width: 51px;
+		height: 51px;
+		box-shadow: 0px 7px 26px rgba(0, 40, 73, 0.13);
+	}
+
+	.serviceWrap h5,
+	.charterSection .keypoints{
+		font-size: 18px;
+		line-height: 15px;
+	}
+
+	.btnCall.w-50 {
+		width: auto;
+	}
+
+	.btnCall.w-50 .title {
+		padding: 0px 6px;
+	}
+
+	.formWrap:before {
+		content: "";
+		width: 432px;
+		height: 330px;
+		position: absolute;
+		top: -38px;
+		left: -70px;
+	}
+
+	.moreInfo .aboutWrap .moreBtm {
+		font-size: 20px;
+	}
+	.charterSection .sub-keypoints,
+	.charterSection .keypoints,
+	.serviceWrap figure{
+		margin-left: 0;
+	}
+	.charterSection .serviceWrap{
+		margin-left: 0;
+	}
+
+}
+
+@media only screen and (min-width:991px) and (max-width:1040px) {
+	.bgShadow img {
+		max-width: 420px;
+	}
+
+}
+
+@media only screen and (min-width:768px) and (max-width:1199px) {
+	#topNavbar .navbar-nav > li .dropdown-menu li a {
+		font-size: 11px;
+	}
+
+	#topNavbar .navbar-nav > li > a {
+		font-size: 11px;
+	}
+
+}
+
+@media only screen and (min-width:991px) {
+	.bgShadow {
+		position: inherit;
+	}
+
+	.citySection .gapTop {
+		margin-top: 110px;
+	}
+
+}
+
+@media only screen and (max-width:991px) {
+	#topNavbar .navbar-brand {
+		max-width: 110px;
+		height: auto;
+		margin-top: 0;
+	}
+
+	#topNavbar .navbar-nav > li {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+
+	#topNavbar .navbar-nav > li.phone-number {
+		padding-left: 12px;
+	}
+
+	#topNavbar .navbar-nav > li.phone-number a {
+		font-size: 16px;
+	}
+
+	#footer ul li .phoneCallBox .wrapper .phoneIcon {
+		font-size: 30px;
+	}
+
+	#footer ul li .phoneCallBox .wrapper p {
+		font-size: 12px;
+	}
+
+	#footer ul li .phoneCallBox .wrapper h4 {
+		font-size: 18px;
+	}
+
+	#footer ul li .phoneCallBox {
+		padding: 0 5px;
+	}
+
+	/* ---------------- Landing Page Css ----------------- */
+	#topNavbar .navbar-nav > li.open,
+	#topNavbar .navbar-nav > li .dropdown-menu {
+		box-shadow: none;
+	}
+
+	#topNavbar .navbar-nav > li .dropdown-menu {
+		position: static;
+	}
+
+	#topNavbar .navbar-nav,
+	#topNavbar .navbar-nav > li .dropdown-menu {
+		width: 100%;
+		padding-bottom: 20px;
+	}
+
+	#topNavbar .navbar-nav > li.phone-number a {
+		text-align: left;
+	}
+
+	#topNavbar .navbar-nav > li.dropdown {
+		margin-top: 0;
+	}
+
+	#topNavbar .navbar-nav > li .dropdown-menu li a {
+		font-size: 14px;
+		margin-top: 0px;
+		padding: 10px 20px;
+		font-weight: 400;
+	}
+
+	/***************************/
+	.mainSection h1 {
+		font-size: 38px;
+		line-height: 37px;
+	}
+
+	/*.mainSection p,
+	.charterSection p,
+	.prideSection .wrapRgt p {
+		font-size: 11px;
+		line-height: 21px;
+	}*/
+
+	/*.mainSection p,
+	.btnWrapper {
+		padding-top: 8px;
+	}
+*/
+	#footer ul li a.btn.btnCall,
+	a.btn.btnCall {
+		font-size: 15px;
+		line-height: 34px;
+	}
+
+	.w-50.callTxt {
+		width: 100%;
+	}
+
+	.coachService h5,
+	.mainSection h5 {
+		margin: 55px 0px 20px 0px;
+	}
+
+	h3.title {
+		font-size: 28px;
+		line-height: 22px;
+		margin-bottom: 40px;
+	}
+
+	.btnWrapper {
+		flex-wrap: wrap;
+	}
+
+	.formWrap:before {
+		width: 392px;
+		height: 300px;
+		left: -108px;
+	}
+
+	.citiesSetion .col-sm-4,
+	.citiesSetion .col-sm-8 {
+		width: 100%;
+	}
+
+	.bgShadow , .mainSection .rgtWrap{
+		margin-top: 40px;
+	}
+	.mainSection .lftWrap .w-50{width: 100%;}
+	.btnTop {
+		text-align: center;
+	}
+
+	.fixedWrap .colLft {
+		margin-bottom: 30px;
+	}
+
+	.helpBox {
+		margin-top: 0;
+	}
+
+	.greyBox p {
+		font-size: 18px;
+	}
+
+	.bgShadow img {
+		position: static;
+		max-width: 100%;
+	}
+
+	.infoWrap {
+		font-size: 14px;
+	}
+
+	.tempWrap .lftWrap {
+		padding: 30px 15px;
+	}
+
+	.forcastSection .tempWrap {
+		padding: 175px 0 150px 0;
+	}
+
+	.forcastSection {
+		margin-top: 40px;
+	}
+
+	.forcastSection .lft {
+		width: 70px;
+	}
+
+	.forcastSection .rgt p:first-child {
+		font-size: 40px;
+	}
+
+	.forcastSection .rgt p:nth-child(2) {
+		font-size: 14px;
+	}
+
+	.weatherInfo p:last-child {
+		font-size: 12px;
+	}
+
+	.whiteBox > div {
+		font-size: 18px;
+		height: 170px;
+	}
+
+	.weather {
+		width: 40px;
+		height: 50px;
+	}
+
+	.moreInfo .aboutWrap .moreBtm {
+		font-size: 16px;
+	}
+
+	.moreInfo {
+		padding-bottom: 70px;
+	}
+
+	.popularCityBanner h3 {
+		font-size: 40px;
+	}
+
+	.text-orange a {
+		font-size: 26px;
+	}
+
+	.mapTxt {
+		font-size: 13px;
+	}
+
+	.resources h5.txt,
+	h4.title {
+		line-height: 32px;
+		font-size: 28px;
+	}
+
+	h4.txt {
+		font-size: 30px;
+	}
+
+	.compList .imgItem {
+		padding: 10px;
+	}
+
+	.articleWrapper {
+		padding-top: 70px;
+	}
+
+	.articleWrapper .pt-top {
+		padding-top: 70px;
+	}
+
+	#back-to-top-button span:last-child {display: none;}
+	#back-to-top-button span:first-child{margin-right:0px}
+	.coachService .busBg{width: 100%;}
+	.copyrightWrap p.pb-0{
+      max-width: 590px;
+    }
+
+}
+
+@media only screen and (max-width:767px) {
+	body {
+		padding-top: 60px;
+	}
+
+	h1 {
+		font-size: 35px;
+	}
+
+	h2 {
+		font-size: 45px;
+	}
+
+	h1.h1Title,
+	h2.h2Title {
+		font-size: 30px;
+	}
+
+	#topNavbar .navbar-brand {
+		margin-top: 0;
+		padding-top: 7px;
+	}
+
+	#topNavbar .navbar-nav {
+		padding: 0 12px 10px;
+		float: left !important;
+	}
+
+	#topNavbar .navbar-nav > li > a {
+		margin-top: 0;
+		display: inline-block;
+	}
+
+	#topNavbar .navbar-nav > li.phone-number a {
+		text-align: left;
+		display: inline-block;
+		margin-top: 0;
+	}
+
+	#topNavbar .navbar-nav > li.phone-number a:before {
+		border-left: none;
+	}
+
+	#topNavbar .navbar-nav > li.phone-number .subTitle {
+		text-align: right;
+	}
+
+	#footer {
+		padding-top: 60px;
+	}
+
+	/*#topNavbar .phoneCallBox{max-width: 190px; margin: 5px auto; border-radius: 5px;}
+	.phoneCallBox .wrapper{padding: 4px 0 2px; line-height: 15px;}
+	#topNavbar .phoneCallBox .wrapper .phoneIcon{font-size: 25px; margin: 8px 5px 0 0;}
+	#topNavbar .phoneCallBox .wrapper p{font-size: 12px;}
+	#topNavbar .phoneCallBox .wrapper h4{font-size: 17px; margin-bottom: 0;}*/
+	.coachService .callTxt {
+		font-size: 12px;
+		display: block;
+	}
+
+	.citiesSetion {
+		overflow: hidden;
+	}
+
+	.mainSection .custWrapper .helpWrap:hover p,
+	.mainSection .custWrapper .helpWrap:focus p,
+	.custWrapper .helpWrap:hover p,
+	.custWrapper .helpWrap:focus p {
+		font-weight: 500;
+	}
+	.charterSection .serviceWrap {
+
+	    width: 100% !important;
+	    float: none !important;
+	    text-align: center;
+	}
+	.serviceWrap figure{
+		margin-right: 0;
+		margin-bottom: 10px;
+	}
+	.service-brief{
+		display: block;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	.charterSection .keypoints{
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	.charterSection .sub-keypoints{
+		text-align: center;
+		display: block;
+	}
+	.charterSection .sub-keypoints .fa{
+		margin-right: 6px;
+	}
+	.custom-row{
+		display: block;
+		margin-bottom: 20px;
+	}
+
+}
+
+@media only screen and (max-width:600px) {
+	#footer ul li .phoneCallBox {
+		margin-right: -15px;
+	}
+	
+
+}
+
+@media only screen and (max-width:575px) {
+}
+
+@media only screen and (max-width:400px) {
+	#footer ul li .phoneCallBox .wrapper .phoneIcon {
+		display: none;
+	}
+
+	#footer ul li .phoneCallBox .wrapper h4 {
+		font-size: 16px;
+	}
+
+	#topNavbar .phoneCallBox {
+		width: 120px;
+		height: 45px;
+		margin-left: 105px;
+	}
+
+	#topNavbar .phoneCallBox .wrapper {
+		margin: 1px 0;
+	}
+
+	
+
+	#topNavbar .phoneCallBox .wrapper p {
+		font-size: 11px;
+	}
+
+	#topNavbar .phoneCallBox .wrapper h4 {
+		font-size: 15px;
+		text-align: center;
+		margin-top: 2px;
+	}
+
+	#topNavbar .phoneCallBox .wrapper h4 {
+		font-size: 12px !important;
+	}
+
+	#topNavbar .phoneCallBox .wrapper p {
+		font-size: 8px !important;
+	}
+
+}
+
+@media only screen and (max-width:360px) {
+	#lastMinuteCounter h3 {
+		font-size: 30px;
+	}
+
+	#lastMinuteCounter .subTitle {
+		font-size: 11px;
+		letter-spacing: -0.2px;
+	}
+
+	/* --------- Landing Page Css --------- */
+	#topNavbar .phoneCallBox .wrapper h4 {
+		font-size: 12px;
+	}
+
+	#topNavbar .phoneCallBox .wrapper p {
+		font-size: 8px;
+	}
+
+	#topNavbar .phoneCallBox .wrapper .phoneIcon {
+	display: none;
+	}
+	#topNavbar .phoneCallBox {
+	max-width: 117px !important;
+	font-size: 9px !important;
+	margin-left: 105px !important;
+	}
+}
+
+/* --------- New service page --------- */
+@media screen  and (min-width:767px) and (max-width:991px) {
+	.temp_block {
+		display: block;
+	}
+	.boxFooter p span{
+		display: block;
+	}
+
+}
+
+@media screen and (max-width:991px) {
+	#topNavbar .navbar-brand img {
+    width: 100px;
+}
+	#topNavbar .navbar-toggle.newToggle {
+		background-color: #2694AB;
+		display: block !important;
+		margin-right: 0px;
+	}
+
+	#topNavbar .navbar-header.newHeader {
+		float: none !important;
+		    padding: 0px 15px;
+	}
+
+	#topNavbar .navbar-collapse.collapse {
+		display: none !important;
+	}
+
+	#topNavbar .navbar-collapse.collapse.in {
+		display: block !important;
+		background-color: #f1f5f9;
+	}
+
+	#topNavbar .phoneCallBox {
+		display: block;
+		max-width: 190px;
+		margin: auto;
+		border-radius: 5px;
+		background-color: #2694AB;
+		padding: 1px 5px 0;
+	}
+
+	#topNavbar .phoneCallBox a,
+	#topNavbar .phoneCallBox a:hover {
+		color: #fff;
+	}
+
+	.phoneCallBox .wrapper {
+		padding: 5px 0 0px; /*line-height: 15px;*/
+	}
+
+	#topNavbar .phoneCallBox .wrapper .phoneIcon {
+		font-size: 18px;
+		margin: 10px 4px 0 0;
+	}
+
+	#topNavbar .phoneCallBox .wrapper p {
+		font-size: 12px;
+		margin: 0 0 5px;
+		text-align: center;
+	}
+
+	#topNavbar .phoneCallBox .wrapper h4 {
+		font-size: 17px;
+		margin: 0;
+	}
+
+	#topNavbar ul.nav.navbar-nav {
+		padding: 0;
+		float: left;
+		margin-left: 0px;    /*background-color: #f1f5f9;*/
+		background-color: #fff;
+		border: 1px solid #f5320c;
+	}
+
+	#topNavbar .navbar-nav>li {
+		float: unset !important;
+		padding: 0;
+	}
+
+	#topNavbar .navbar-nav > li > a {
+		display: block;
+	}
+
+	#topNavbar .navbar-nav>li:hover a,
+	#topNavbar .navbar-nav>li:focus a,
+	#topNavbar .navbar-nav>li.active a {
+		background-color: none;		/*background-color: #f5320c; */
+
+		/*padding: 0px;*/
+	}
+
+	#topNavbar .navbar-nav>li.phone-number:hover {
+		background-color: none;
+	}
+
+	#topNavbar .navbar-nav>li:hover a,
+	#topNavbar .navbar-nav>li:focus a,
+	#topNavbar .navbar-nav>li.active a {
+		color: #f5320c;
+	}
+
+	#topNavbar .navbar-nav > li > a {
+		margin: 0px;
+		padding: 10px 15px;
+		font-size: 14px;
+	}
+
+	#topNavbar .navbar-nav > li.open > a {
+		color: #f5320c;
+		display: block;
+	}
+
+	#topNavbar .navbar-nav > li.dropdown a .fa {
+		float: right;
+	}
+
+	#topNavbar .navbar-nav > li.open > a .fa {
+		color: #ffffff;
+	}
+
+	.team .slick-carousel .slick-next {
+		left: 12%;
+	}
+
+	.boxHeader {
+		font-size: 16px;
+		line-height: 20px;
+	}
+
+	.busSection .outerBox .innerbox {
+		padding: 12px;
+	}
+
+	.boxBody {
+		margin: 10px auto;
+	}
+
+	.circleImg {
+		width: 100px;
+		height: 100px;
+	}
+
+	.boxBody figure,
+	.quotesSection .txtWrap {
+		width: 100%;
+	}
+
+	.quotesSection .txtWrap p {
+		padding-top: 0px;
+	}
+
+	/*.aboutWrap .aboutTop img{height: auto;}*/
+	.aboutWrap .aboutTop .imgCaption {
+		font-size: 14px;
+		line-height: 20px;
+		padding: 10px;
+	}
+
+	.aboutWrap .aboutTop img {
+		height: 146px;
+	}
+
+	.mainSection .boxwrap > div:first-child,
+	.boxwrap > div {
+		margin-right: 7px;
+	}
+
+	a.btn.btnCall{
+   		font-size: 20px !important;
+		padding: 6px 16px;
+	}
+
+	.callTxt{
+		font-size: 14px;
+		display:block;
+		word-break: break-all;
+		white-space: normal !important;
+	}
+
+	#topNavbar .phoneCallBox .wrapper .phoneIcon{margin: 0px 4px 0 0;}
+	.phoneCallBox .wrapper {
+		padding: 0px;
+		min-height: 60px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+}
+
+@media (max-width:767px) {
+	#topNavbar .phoneCallBox {
+    margin-right: 70px;
+}
+	.form-horizontal .control-label {
+		text-align: left;
+	}
+
+	.topGap .btnWrapper {
+		justify-content: center;
+		text-align: center;
+	}
+
+	.w-50 {
+		width: 100%;
+	}
+
+	.callingWrap,
+	a.btn.btnCall.w-50 {
+		margin-right: 0px;
+	}
+
+	.mainSection .custRow .topGap a.btn.btnCall {
+		padding: 9px 20px;
+		font-size: 18px;
+	}
+
+	.mainSection .custWrapper {
+		padding-bottom: 30px;
+	}
+
+	.mainSection .rgtWrap div {
+
+		/*width: 50%;*/margin: 0 auto;
+	}
+
+	.charterSection {
+		padding: 40px 0px;
+	}
+
+	h3.title {
+		font-size: 22px;
+	}
+
+	.charterSection .serviceWrap {
+		/*width: 33.33%;*/
+		width: 50%;
+		float: left;
+	}
+
+
+	.coachService .callWrap {
+		margin-top: 15px;
+		text-align: center;
+	}
+
+	.coachService .busBg {
+		width: 50%;
+		margin: 0 auto;
+		margin-top: 25px;
+	}
+
+	.bigbtn span:first-child {
+		font-size: 16px;
+		margin-right: 25px;
+	}
+
+	.bigbtn span:last-child {
+		font-size: 18px;
+	}
+
+	.citiesSetion h5 {
+		margin-top: 0px;
+	}
+
+	.formWrap {
+		width: 85%;
+	}
+
+	.citiesSetion:before {
+		content: "";
+		background-size: contain;
+		width: 100%;
+		top: 6%;
+		background-position: center;
+		height: 75%;
+	}
+
+	.citiesSetion h3.title {
+		margin-left: 0px;
+		text-align: center;
+	}
+
+	.citiesSetion .lftWrap {
+		margin-bottom: 30px;
+		overflow: hidden;
+		padding-bottom: 40px;
+	}
+
+	.team {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.citiesSetion:before {
+		display: none;
+	}
+
+	.partnershipWrap {
+		margin-bottom: 35px;
+	}
+
+	.circleImg {
+		width: 150px;
+		height: 150px;
+	}
+
+	.mt-10 {
+		margin-top: 0px;
+	}
+
+	.my-20 {
+		margin: 0px;
+	}
+
+	.quotesSection .txtWrap div {
+		font-size: 20px;
+	}
+
+	.aboutWrap .aboutTop img {
+		height: 200px;
+	}
+
+	.prideSection,
+	.busSection,
+	.aboutSection {
+		padding: 30px 0px;
+	}
+
+	.imgWrap {
+		width: 60%;
+		margin: 0 auto;
+	}
+
+	.prideSection .outerWrapper .wrapRgt {
+		text-align: center;
+	}
+
+	.prideSection .outerWrapper .wrapRgt {
+		margin-top: 0px;
+	}
+
+	.btnTop {
+		margin-top: 0;
+	}
+
+	.citySection .gapTop {
+		margin-top: 40px;
+	}
+
+	h6.titleTxt {
+		padding: 0 20px;
+		font-size: 24px;
+		margin-bottom: 30px;
+	}
+	.coachService h5,
+	.mainSection h5 {
+		margin-bottom: 30px;
+		font-size: 24px;
+		padding: 0 20px;
+	}
+
+	.companySection {
+		padding: 40px 0px 10px;
+	}
+
+	.companySection p {
+		font-size: 18px;
+	}
+
+	h3.title {
+		font-size: 24px;
+		margin-bottom: 30px;
+		line-height: 32px;
+	}
+	.prideSection p.subheading {
+		font-size: 20px;
+		line-height: 31px;
+	}
+
+	h4.title {
+		margin-bottom: 30px;
+	}
+
+	.articleWrapper .pt-top {
+		padding-top: 60px;
+		padding-bottom: 0;
+	}
+
+	.infoWrap .infoBox {
+		padding: 0px 0 0px;
+	}
+
+	.infoBox.row > div {
+		padding: 14px 0px 17px;
+	}
+
+	.callInfo i.fa-phone {
+		margin-right: 2px;
+	}
+
+	.cityBtn {
+		margin: 30px 0px;
+	}
+
+	.forcastSection {
+		height: auto;
+		background: #eef7fc;
+	}
+
+	.forcastSection .tempWrap {
+		padding: 55px 0 40px 0;
+	}
+
+	.moreInfo {
+		margin-top: 0;
+	}
+
+	.general-slider {
+		margin: 30px auto 0;
+	}
+
+	.clrIcon > div {
+		margin-bottom: 15px;
+	}
+
+	.topFive .wrapper {
+		margin-bottom: 30px;
+	}
+
+	.boxBody figure {
+		width: 180px;
+		display: block;
+		left: 0;
+		margin: 30px auto 0;
+	}
+
+	.text-orange a {
+		font-size: 20px;
+	}
+
+	.popularCityBanner {
+		height: 350px;
+	}
+
+	.articleBlock p,
+	.topFive p {
+		font-size: 16px;
+	}
+
+	.panel-default > .panel-heading + .panel-collapse > .panel-body {
+		font-size: 16px;
+	}
+
+	.mainSection p,
+	.charterSection p,
+	.busSection p,
+	.prideSection .wrapRgt p,
+	.citySection p,
+	.charterSection .sub-keypoints{
+		font-size: 16px;
+		line-height: 32px;
+	}
+
+	.citySection .boxwrap p {
+		font-size: 13px;
+		line-height: 20px;
+		padding-top: 4px;
+	}
+
+	.cityBtn span:last-child {
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 22px;
+		margin-left: 0;
+		display: block;
+		margin-bottom: 7px;
+	}
+
+	.articleBlock .SocialWrap {
+		margin-top: 0;
+	}
+
+	.resources h5.txt,
+	h4.title {
+		font-size: 24px;
+		line-height: 32px;
+	}
+
+	.fixedWrap .colLft {
+		padding-right: 15px;
+	}
+
+	.compList .imgItem {
+
+		/*padding: 0 70px;*/
+	}
+
+	.companySection .flexWrap {
+		display: block;
+	}
+
+	.reveiw {
+		margin-bottom: 10px;
+	}
+
+	h4.txt {
+		font-size: 24px;
+	}
+
+	.topFive .panel-title > a,
+	.topFive .panel-title > a:active {
+		font-size: 20px;
+	}
+
+	.flexWrap .col-md-8:after {
+		display: none;
+	}
+
+	.moreInfo .aboutWrap .moreBtm {
+		height: auto;
+	}
+
+	.outerBox:hover .boxHeader,
+	.outerBox:focus .boxHeader {
+		font-size: 20px;
+	}
+
+	.articleBlock .SocialWrap {
+		display: block;
+		text-align: center;
+	}
+
+	.articleBlock .SocialWrap p {
+		text-align: center;
+	}
+
+	.forcastSection .tempWrap {
+		display: block;
+	}
+
+	.tempWrap .lftWrap {
+		position: static;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	.tempWrap .rgtWrap {
+		position: static;
+		width: 100%;
+	}
+
+	.whiteBox {
+		display: block;
+	}
+
+	.whiteBox > div {
+		width: calc(100% / 1);
+		margin-bottom: 20px;
+	}
+
+	.veiwBtn p {
+		text-align: center;
+		font-size: 16px;
+		line-height: 25px;
+	}
+
+	.btnVeiw {
+		display: block;
+		margin: 20px 0;
+	}
+
+	.greyBox {
+		height: auto;
+	}
+	.coachService .busimgWrap {
+	padding-top: 20px;
+	}
+
+}
+
+@media (max-width:650px) {
+	.circleImg {
+		width: 128px;
+		height: 128px;
+	}
+
+}
+
+@media (max-width:600px) {
+	.busSection .row .col-sm-3.col-xs-4 {
+		width: 50%;
+	}
+
+}
+
+@media (max-width:550px) {
+	.quotesSection .txtWrap {
+		justify-content: center;
+	}
+
+	.quotesSection .txtWrap div {
+		margin-bottom: 12px;
+	}
+
+	.bigbtn span:first-child {
+		float: none;
+		display: block;
+		margin: 0 0 5px;
+		line-height: 20px;
+	}
+
+	.bigbtn span:last-child {
+		float: none;
+		display: block;
+		line-height: 20px;
+	}
+
+	.slick-carousel button.slick-prev.slick-arrow,
+	.slick-carousel button.slick-next.slick-arrow {
+		top: 100%;
+		bottom: auto;
+		margin-top: 50px;
+	}
+
+	.team .slick-carousel .slick-next {
+		left: 60px;
+	}
+
+	.imgWrap {
+		width: 100%;
+	}
+
+	.mainSection .custWrapper .helpWrap {
+		margin: 8px 20px 8px 20px;
+	}
+
+	.mainSection .custWrapper .helpWrap:last-child {
+		margin-right: 20px;
+	}
+
+	.compList .imgItem {
+		padding: 0 30px;
+	}
+
+}
+
+@media screen and (max-width:480px) {
+	.mainSection .custWrapper .helpWrap {
+		margin: 10px 20px;
+	}
+
+	.mainSection .boxwrap > div:first-child,
+	.boxwrap > div {
+		margin-right: 4px;
+	}
+
+	.mainSection .custWrapper .helpWrap:last-child,
+	.custWrapper .helpWrap:last-child {
+		margin-right: 20px;
+	}
+
+	.general-slider {
+		overflow: hidden;
+	}
+
+}
+
+@media (max-width:400px) {
+	.aboutSection .col-sm-4,
+	.quotesSection .txtWrap div,
+	.busSection .row .col-sm-3.col-xs-4,
+	.imgwrapper div img,
+	.partnershipWrap div img {
+		width: 100%;
+	}
+
+	.imgwrapper div,
+	.partnershipWrap div {
+		flex: 0 0 42%;
+		margin: 10px;
+	}
+
+	#topNavbar .phoneCallBox {
+		width: 150px;
+	}
+
+	#footer ul li a.btn.btnCall {
+		padding: 6px 9px;
+	}
+
+	#footer ul li a.btn.btnCall span.title {
+		font-size: 14px;
+		line-height: 25px;
+	}
+
+	#footer h5.navTitle {
+		margin-bottom: 20px;
+	}
+
+	.boxBody figure {
+		width: 50%;
+		left: 0;
+		margin: 20px auto;
+	}
+
+	.mt-60 {
+		margin-top: 30px;
+	}
+
+	.slick-slide img {
+		width: auto;
+		max-width: 100%;
+		margin: 0 auto;
+	}
+
+	.compList {
+		margin-bottom: 15px;
+	}
+
+	.cityBtn span:first-child,
+	.cityBtn span:nth-child(2) {
+		font-size: 16px;
+		line-height: 28px;
+	}
+
+	.cityBtn span:last-child {
+		font-size: 13px;
+		line-height: 13px;
+	}
+	
+	#topNavbar .phoneCallBox .wrapper{
+   		margin: 0px 0;
+	}
+	.phoneCallBox .wrapper{min-height: 42px;}
+}
