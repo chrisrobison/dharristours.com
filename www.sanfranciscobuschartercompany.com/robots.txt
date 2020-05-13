@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+Disallow: /*.php$
+Disallow: /*.inc$
+Disallow: /*.gz$
+Disallow: /*.wmv$
+Disallow: /*.xhtml$
+Disallow: /*rurl=*
+Disallow: /employee/
+Allow: /sitemap.xml.gz$
+Allow: /employee/upload/
+Allow: /employee/uploads/
+Allow: /employee/upload_editor_files/
+Disallow: /lp/
+Disallow: /blog/author/*
+Disallow: /blog/category/*
+Sitemap: https://www.sanfranciscobuschartercompany.com/sitemap-xml

@@ -1,0 +1,929 @@
+@media screen and (min-width:1920px) {}
+
+@media screen and (min-width:1600px) {              
+    .slider {               
+        min-height:700px;               
+    }               
+}               
+            
+@media screen and (min-width:1500px){               
+    h1.h1Title, h2.h2Title,.slidercontent h2,.contentBox h2 ,.slidernew h2 {                
+        font-size: 46px;                
+    }               
+    .articleBlock p, .articleBlock ul {             
+        font-size: 18px;                
+        font-weight: 300;               
+        line-height: 28px;              
+    }               
+    .buses-details .charterBusListing li h3{font-size: 35px;}               
+    .btn{font-size: 18px;}              
+    .requestQuote h2{               
+        font-size: 42px;                
+        font-weight: 500;               
+        margin-top: 70px;               
+    }               
+    .busGraphImg {              
+        margin-top: 70px;               
+    }               
+    .requestQuote h3 {              
+        font-size: 18px;                
+    }               
+    .requestQuote .phoneBtn{                
+        font-size: 35px;                
+        font-weight: 500;               
+    }               
+    .mainContainer .busServices h4{font-size: 32px;}                
+    .mainContainer p, .modernBuses p,.contentBox p,.contentBox h3, .slidernew h3{font-size: 18px;line-height: 28px;}                
+    .slidercontent a{font-size: 44px;}              
+    .slidercontent h3,.contentBox .top5Place ul li h3 {font-size: 26px;}                
+    .slidercontent p{font-size: 20px;line-height: 32px;}                
+}
+
+@media screen and (max-width:1500px){
+    .top-ten-body h2 {
+        width: calc(100% - 70px);
+    }
+    .home-banner h1,
+    .services-offered h1,
+    .top-ten-heading h1,
+    .explore h1,
+    .modern-bus-services h1,
+    .review-section h1,
+    .new-quote h2, 
+    .amentities-section h1,
+    .recentBlog h2.h2Title, .midArea.contentBox h1.h1Title{
+        font-size: 36px;
+    }
+    header nav ul li a{
+        font-size: 18px;
+    }
+    .contact-number h3, .inner-contact h3,.footer-contact .agents, .explore-body .agents{
+        font-size: 18px;
+    }
+    .footer-contact .agents, .explore-body .agents{
+        margin-top: 6px;
+    }
+    .new-quote p,
+    .home-banner p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .left-home-banner{
+        padding-top: 124px;
+    }
+   
+    .new-quote{
+        padding: 70px 0;
+    }
+    .new-quote .phoneBtn{
+        width: 160px;
+        height: 40px;
+        margin-top: 35px;
+        font-size: 18px;
+        padding: 3px 8px;
+    }
+   
+    .services-offered {
+        padding: 65px 0 55px;
+    }
+    .services-offered h2 a,
+    .top-ten-bg h2,
+    .explore h2,
+    .modern-bus-services h2,
+    .contentBox h2, .slidernew h2{
+        font-size: 32px;
+    }
+    p.para-text {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .readBtn-blue{
+        font-size: 16px;
+        width: 136px;
+        height: 38px;
+        border-radius: 0;
+    }
+ 
+    .top-ten-index,
+    .top-ten-index .black-circle, 
+    .top-ten-index .num{
+        width: 50px;
+        height: 50px;
+    }
+    .top-ten-index .num{
+        padding: 3px 0;
+    }
+    .top-ten-body p.para-text,
+    .top-ten-body .details, .reviews-by,
+    .review-section p.para-text , .recentBlog p{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .explore {
+        padding: 30px 0 65px;
+    }
+    .explore-body .row {
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+    .modern-bus-services {
+        padding: 70px 0 60px;
+    }
+    .viewBtn-blue{
+        width: 180px;
+        height: 50px;
+        line-height: 38px;
+    }
+    .services-offered .row, .modern-bus-services .row {
+        margin-bottom: 32px;
+    }
+    .amentities-section .amenities li {
+        font-size: 13px;
+    }
+    .amentities-section .phoneBtn{
+        font-size: 29px;
+        width: 314px;
+        height: 62px;
+        padding: 15px;
+        line-height: 28px;
+    }
+    .amentities-section .request{
+        font-size: 32px;
+    }
+    .mt-80{
+        margin-top: 30px;
+    }
+    .img-box, .img-box i, .img-box img{
+        width: 110px;
+        height: 110px;
+    }
+    .review-section {
+        padding: 60px 0 80px;
+    }
+    footer{
+        padding: 60px 0 40px;
+    }
+    footer nav ul li a,.copyright{
+        font-size: 14px;
+        line-height: 18px;
+    }
+   a.call-num .inner-contact{
+    top: 5px;
+    left: 5px;
+   }
+    .inner-contact{
+        padding: 6px 15px 6px 40px !important;
+    }
+    a.call-num,
+    a.call-num .white-box,
+    a.call-num .inner-contact,
+    a.call-num .black-box{
+        width: 188px;
+        height: 40px;
+    }
+}
+
+@media screen and (min-width:1281px){       
+    .home-banner .container,        
+    .new-quote .container,      
+    .services-offered .container,       
+    .top-ten-bg .container,     
+    .explore .container,        
+    .modern-bus-services .container,        
+    .amentities-section .container,     
+    .review-section .container , .container{     
+        width: 1230px; 
+        max-width: 1230px;     
+    }       
+}
+
+
+@media screen and (max-width:1280px) {
+    .home-banner .container, .new-quote .container, .services-offered .container,               
+    .top-ten-bg .container, .explore .container, .modern-bus-services .container,               
+    .amentities-section .container, .review-section .container, .container , header .pagewidth{             
+        width: 90%;             
+    }
+
+    .mainNav ul li:last-child a {
+        border-right: none;
+    }
+    nav#MainNAV ul li {
+        margin-right: 8%
+    }
+    .pagewidth , header .pagewidth {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .rankedblock {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width:1208px) {
+    .mainNav ul li a {
+        padding: 0 14px;
+    }
+    .addressdetail h3 a {
+        font-size: 23px
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:1260px) {                        
+    header h1 {                     
+        width: 100%;                        
+        text-align: center;                     
+        margin: 5px 0;                      
+    }       
+                 
+    header nav {                        
+        width: 100%;                        
+        float: none;                        
+        background: #5f4e4e;                        
+        padding: 0;                     
+        clear: both;                        
+    }                       
+    header nav ul li a {                        
+        padding: 10px 5px;                      
+        margin: 0px;                        
+        display: block;                     
+        color: #FFF;                        
+        text-decoration: none;                      
+        font-weight: 500;                       
+    }                       
+    header nav ul li a:hover {                      
+        transition: background-color 0.5s ease;                     
+        color: #FFF                     
+    }                       
+    header nav ul li.contact-number{                        
+        margin-right: 10px;                     
+    }                       
+}   
+
+@media screen and (min-width:821px) and (max-width:1260px) {                        
+    body{                       
+        padding-top: 165px;                     
+    }                       
+    header nav ul li {                      
+        padding: 15px 3px 2px;                      
+    }                       
+    header .pagewidth {                     
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;        
+    }                       
+    .mainheader nav ul {                        
+        margin: 6px;                        
+    }                       
+}  
+
+@media screen and (max-width:1200px){   
+    .left-home-banner {padding: 148px 0px 0px 0px;} 
+    header h1 img{width: 125px;max-height: 60px;}                                 
+}       
+
+@media screen and (max-width:1152px) {
+    nav#MainNAV ul li {
+        margin-right: 5%
+    }
+    header#headerBlock .searchBox {
+        width: 303px;
+    }
+    header#headerBlock .headerDetail .searchBox input[type="text"] {
+        width: 223px;
+    }
+   
+}
+
+@media screen and (min-width:1024px) and (max-width:1280px) {
+    .rankedblock {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .mainNav ul li a {
+        font-size: 19px;
+        padding: 0 15px;
+    }
+    
+    .slidercontent a {
+        font-size: 30px;
+    }
+    .slidercontent h2 {
+        font-size: 32px;
+    }
+    .slidercontent h3 {
+        font-size: 16px;
+    }
+    .slidercontent {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:1024px) and (max-width:1280px) {
+    header nav ul li a{
+        font-size: 18px;
+    }
+    .rankedblock {
+        margin-right: 0;
+    }
+}
+
+@media screen and (min-width:951px) and (max-width:1090px) {  
+    header nav ul li a{
+        font-size: 18px;
+    }
+    .rankedblock {
+        margin-right: 0;
+    }           
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .rankedblock {
+        display: none;
+    }
+    .slidercontent {
+        width: 90%;
+        padding: 0 5% 0 5%;
+    }
+    .pagewidthNew {
+        width: 90%
+    }
+    .aboutBlock p {
+        width: 45%;
+    }
+    .busBlock .pagewidthNew {
+        width: 80%
+    }
+    .top5Place ul li {
+        width: 26%;
+        margin-right: 9%;
+    }
+    header .pagewidth {
+        padding: 9px 0 0;
+    }
+    .pagewidth {
+        width: 100%;
+    }
+    .slidercontent {
+        text-align: left;
+    }
+    
+}
+
+@media screen and (max-width:991px){ 
+    .left-home{             
+        padding-bottom: 50px;               
+    }   
+         
+    .res-margin{                
+        margin-bottom: 20px;                
+    }               
+    .review-section .row > div+div{             
+        margin-top: 50px;               
+    } 
+
+    .home-banner .row{              
+        display: block;             
+    }    
+    .left-home-banner {                
+    padding: 156px 0px 0px 0px;                       
+    }
+    .left-home-banner img {         
+    width: 550px;                          
+    margin: auto;                           
+    }
+    .home-banner .user-rating {                    
+        display: block;                                   
+        margin: 0 auto;                     
+    }
+
+     .imgwrapper .left-home{
+        padding-top: 30px;
+    }  
+               
+    .right-home,.left-home{             
+        width: 100%;                
+    }               
+    .ton-ten-width{             
+        width: 100%;                
+    }               
+    .pl-40{             
+        padding-left: 15px;             
+    }               
+    .pr-40{             
+        padding-right: 15px;                
+    }
+    .services-offered h2, .top-ten-bg h2,       
+    .explore h2, .modern-bus-services h2{margin-right: 0px;}
+
+} 
+
+@media screen and (max-width:932px) {
+    .mainNav ul li a {
+        font-size: 16px;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width:780px){                        
+    .right-home, .left-home{                        
+        padding: 0 15px;                        
+    } 
+}
+
+@media screen and (max-width:768px) {
+    .contactImg{margin-top: 0px} /*mk*/
+    .contentBox{margin-top: 40px} /*mk*/
+    .mainNav ul li a {
+        font-size: 19px;
+        padding: 0 15px;
+    }
+    .mainNav {
+        margin: 0px;
+        background: none
+    }
+    .menuf {
+        display: none
+    }
+    .mainNavT {
+        display: none
+    }
+    .slidercontent {
+        text-align: center;
+    }
+    .slidercontent {
+        padding: 0;
+    }
+    .pagewidthNew {
+        width: 90%
+    }
+    .top5Place ul li {
+        float: left;
+        margin-right: 3%;
+        width: 30%;
+    }
+    .slider .busBanner img.bus_logo{
+        max-width: 115px;
+    }
+}
+
+
+@media screen and (max-width:767px) {
+    #footer .footerNav{border-width: 1px 0 1px 0; padding: 20px 0; margin: 25px 0;}
+
+}
+
+@media screen and (min-width:800px) {
+    .sliderlogo {
+        display: none;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:950px) {
+    .slidercontent {
+        text-align: center;
+    }
+   
+    .slider{
+        min-height:600px;
+        background: url(../images/bck_800.png) no-repeat center top;
+        min-height: 500px;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:950px) {
+   
+}
+
+@media screen and (min-width:320px) and (max-width:800px) {
+    
+    .sliderlogo {
+        display: block;
+        width: 250px;
+        margin: 0 auto;
+        text-align: center;
+    }
+  
+    .contentBox .colLeft {
+        float: none;
+        width: 100%
+    }
+    .innerpagewidth {
+        width: 100% /*mk*/
+    }
+    .carDeatil .wifi, .carDeatil .location, .carDeatil .luggage, .carDeatil .lava {
+        display: none
+    }
+    .contentBox .colRight {
+        float: none;
+        width: 100%;
+        text-align: center
+    }
+    .contentBox .colRight {
+        text-align: center!important
+    }
+   
+    .carDeatil {
+        background: none;
+        padding: 50px 0;
+        min-height: 410px;
+    }
+    .carDeatil .wifi, .carDeatil .location, .carDeatil .luggage, .carDeatil .lava {
+        display:inline-block;
+        position: static;
+        width: 50%;
+        margin: 0 -4px 5%;
+        vertical-align: top;
+    }
+    .carDeatil .wifi img, .carDeatil .location img, .carDeatil .luggage img, .carDeatil .lava img {}
+    .carDeatil .wifi a, .carDeatil .location a, .carDeatil .luggage a, .carDeatil .lava a, .carDeatil .wifi a span, .carDeatil .location a span, .carDeatil .luggage a span, .carDeatil .lava a span {
+        font-size: 19px;
+        color: #929292;
+        padding: 12px 0 0 12px;
+    }
+   
+    .contactImg {
+        width: 90%
+    }
+    
+    .contentBox p {
+        text-align: justify
+    }
+   
+    .slider {
+        background: url(../images/bck_800.png) no-repeat center top;
+        min-height:302px;
+    }
+    .busesBG {
+        background: url(../images/nyc_backgrnd_pic.jpg);
+    }
+    .citySlider {
+        background: url(../images/nyc_backgrnd_pic.jpg);
+    }
+    .contact {
+        background: url(../images/nyc_backgrnd_pic.jpg);
+    }
+  
+    .busBlock .pagewidthNew {
+        width: 80%
+    }
+    .busDetailNew p {
+        width: 100%
+    }
+    .formDetail {
+        right: 175px;
+        top: 160px
+    }
+    .formDetail {
+        right: 26%
+    }
+    .slidernew ul li {
+        width: 100%
+    }
+    .popup {
+        background: none;
+        display: block;
+        left: auto;
+        top: auto;
+        right: auto;
+        padding: 0px;
+        width: 100%;
+        height: auto;
+        text-align: center
+    }
+    .popup h3 {
+        display: none
+    }
+    .popup p {
+        text-align: center;
+        width: 100%;
+        max-width: 100%;
+    }
+    .carDeatil.innerpagewidth .location {
+        height: auto;
+    }
+    .carDeatil.innerpagewidth .luggage {
+        height: auto;
+    }
+    .carDeatil.innerpagewidth .lava {
+        height: auto;
+    }
+    .carDeatil .wifi, .carDeatil .location, .carDeatil .luggage, .carDeatil .lava {
+        margin-bottom: 25%;
+        text-align: center;
+        color: #000;
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:492px) {
+    .carDeatil .wifi, .carDeatil .location, .carDeatil .luggage, .carDeatil .lava {
+        min-height: 184px;
+    }
+}
+
+@media screen and (max-width: 792px) and (min-width: 769px){                                
+    header nav ul li {                              
+        padding: 15px 1px 2px;                              
+    }                               
+}       
+
+
+
+/*mk*/
+@media screen and (max-width:670px) {
+    .contentBoxNew figure{padding:  0 0 20px;}
+    .tcenter.bus-1.bus-2 .content-min,
+    .tcenter.bus-1 .content-min{;background-size: 170px;width: 100%;}
+    .tcenter.bus-1.bus-2 .content-min p,
+    .tcenter.bus-1 .content-min p{display: none;}
+    p.show-min{display: block;}
+}
+
+@media screen and (max-width:640px) {
+    .slidercontent a {
+        font-size: 20px;
+    }
+    .slidercontent h3 {
+        font-size: 15px;
+    }
+    .contentBox h2, .slidernew h2, .slidercontent h2 {
+        font-size: 25px;
+    }
+    .sliderlogo {
+        width: 180px;
+    }
+    .carDeatil {
+        padding: 20px 0;
+        min-height: 330px;
+    }
+    .carDeatil .wifi, .carDeatil .location, .carDeatil .luggage, .carDeatil .lava {
+        margin-bottom: 20px;
+    }
+    .payment_accepted img {
+        max-width: 300px
+    }
+    .slidernew {
+        padding: 20px 0
+    }
+    .pagewidth .menuf {
+        width: 100%;
+    }
+  
+    .left-home-banner{                     
+        padding: 140px 15px 0;                      
+        background: url(../images/building.png) no-repeat;                      
+        background-size: contain;                       
+    }                       
+    .amentities-section .amenities li {                     
+        width: 150px;                       
+    }
+}
+
+@media screen and (max-width:600px) {
+    .modernBuses .amenities li{width: 150px;}
+    .slider .busBanner img.bus_logo{
+        max-width: 100px;
+    }
+}
+
+/*mk*/
+@media screen and (min-width:320px) and (max-width:820px) {             
+    .small {                        
+        display: block;                     
+    }                       
+    .mainheader {                       
+        display: none ;                      
+    }                       
+    #newSmall {                     
+        z-index: 99;                        
+        right: 13px;                        
+        width: 280px;                       
+        max-height: 400px;                      
+        overflow-y: scroll;                     
+    }                       
+    .mainNav .mainNavSmall ul li a {                        
+        text-align: left;                       
+    }                       
+    .mainNav .mainNavSmall ul li a span {                       
+        width: 100%                     
+    }                       
+    .mainNav {                      
+        margin: 0px;                        
+        background: none;                       
+    }                       
+    header h1 {                     
+                                
+        margin: 5px auto 0;                     
+        width: 66px;                        
+    }                       
+    .mainNav {                      
+        float: right;                       
+        width: 10%;                     
+    }                       
+    header button {                     
+        padding: 12px 15px;                     
+        float: left ;                    
+    }                       
+                            
+    .mainNavSmall {                     
+        height: 56px;                       
+        width: 45px ;                    
+    }                       
+    .mainNav {                      
+        margin-top: -56px;                      
+        padding: 0px;                       
+        width: 56px;                        
+        min-width: auto;                        
+    }                       
+    .smallheader {                      
+        padding: 10px                       
+    }                       
+    .mainNav {                      
+        padding: 0 0;                       
+    }                       
+    .mainNav ul li { padding: 0px;}                     
+    header {text-align: center;}                    
+    header button {                     
+        float: none;                        
+        text-align: center                      
+    }                       
+    .fmenu {display: block;}                    
+    .fmenu a {                      
+        display: block;                     
+        background: #a2d5d6;                        
+        color: #000;                        
+        text-transform: uppercase;                      
+        text-decoration: none;                      
+        padding: 9px 5px;                       
+    }                       
+    .mainNavSmall {                     
+        display: block ;                     
+    }                       
+    .mainNavSmall ul li {                       
+        width: 100%;                        
+        margin-bottom: 5px;                     
+    }                       
+    .mainNav .mainNavSmall ul li a {                        
+        border-right: 0px;                      
+        margin-bottom: 13px                     
+    }                       
+    .pagewidth .menuf{margin-left: 8px;}                        
+}       
+
+
+@media screen and (min-width:320px) and (max-width:768px) {
+    #formDetails span.value {
+        display: none;
+    }
+    .divice {
+        display: block;
+        float: none;
+    }
+  
+    .formDetail {
+        top: 90px;
+        left: 10px
+    }
+    .arrow {
+        left: 20px
+    }
+    .rankedblock {
+        display: none;
+    }
+    .slidercontent {
+        width: 100%;
+        float: none;
+        display: block;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:600px) {
+    .pagewidthNew {
+        width: 90%
+    }
+    .aboutBlock p {
+        width: 45%
+    }
+    .top5Place ul li {
+        width: 38%;
+        margin-right: 0px;
+        margin: 0 auto;
+        float: none;
+        margin-bottom: 50px
+    }
+    .top5Place ul li.last {
+        margin: 0 auto
+    }
+    .aboutBlock p {
+        width: 100%;
+        float: none;
+        margin-bottom: 20px
+    }
+    .addressdetail {
+        padding-top: 20%
+    }
+    .contactImg .imgBlock {
+        width: 36%
+    }
+   
+     .addressdetail h3 ,
+    .addressdetail h3 a {
+        font-size: 18px
+    }
+    .formDetail {
+        right: 18%
+    }
+    .services ul li {
+        width: 92%;
+        margin-bottom: 10px
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:568px) {
+    .top5Place ul li {
+        width: 206px;
+    }
+        .carDeatil .wifi, .carDeatil .location, .carDeatil .luggage, .carDeatil .lava {
+        width: 100%
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:480px) {
+
+    .carDeatil .wifi a, .carDeatil .location a, .carDeatil .luggage a, .carDeatil .lava a, .carDeatil .wifi a span, .carDeatil .location a span, .carDeatil .luggage a span, .carDeatil .lava a span {
+        float: none
+    }
+    .addressdetail {
+        padding-top: 0
+    }
+    .formDetail {
+        right: 7%
+    }
+    .carDeatil {
+        min-height: 750px
+    }
+    .payment_accepted {
+        margin: 15px 0;
+        padding: 15px 0;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .contentBox h2, .slidernew h2, .slidercontent h2 {
+        font-size: 20px;
+    }
+
+    .tcenter.bus-1.bus-2 .content-min, .tcenter.bus-1 .content-min {
+        background-size: 100px auto;
+        height: 90px;
+        width: 100%;
+    }
+    
+    .left-home ul li {                                  
+        width: 49%;                     
+        padding: 0 10px 0 10px;                     
+        margin-bottom: 9px;                     
+    }                       
+    .left-home ul li img{                       
+        margin: auto;                       
+    }
+}
+
+@media screen and (max-width:400px) {
+    .slider{min-height: 206px;}
+    .mobilePhone{
+    max-width: 180px;
+    }
+    .mobilePhone h3{
+    font-size: 16px;
+    }
+    .slider .busBanner img.bus_logo{
+    max-width: 65px;
+    }
+
+}
+
+@media screen and (max-width:320px) {
+    .formDetail {
+        top: 142px;
+        right: -11px;
+        width: 290px;
+        padding: 10px
+    }
+    .address input[type="text"] {
+        background: #f4f5fa url(../images/mpa.png) no-repeat 264px 4px
+    }
+    .passnger input[type="text"] {
+        background: #f4f5fa url(../images/pasager.png) no-repeat 264px 4px
+    }
+    .rankedblock {
+        display: none;
+    }
+    .payment_accepted {
+        margin: 15px 0;
+        padding: 15px 0;
+    }
+}
