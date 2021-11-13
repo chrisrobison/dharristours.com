@@ -1,0 +1,15 @@
+To: juanaharrisdht@att.net
+Bcc: patrickmp1975@gmail.com
+Subject: Bus Request for Chris on 2021-10-15 21:00:00
+type: charterBusQuoteData
+pickUpAddress: 621 Holloway Ave.
+destinationAddress: 123 Main Street
+pickUpDate: 10/15/2021
+pickUpTime: 9:00pm
+returnDate: 10/15/2021
+returnTime: 12:00am
+userName: Chris
+passengers: 20
+emailAddress: cdr@netoasis.net
+mobileNumber: 4153000180
+message: my trip is going to be awesome!

@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Business Card</title>
+<style>
+    body { background-color:#ccc; font-family:"Helvetica Neue", Helvetica, sans-serif; margin:0; padding:0; color:#000; }
+    .card {
+        display:inline-block;
+        width:3.5in;
+        height:2in;
+        background-color:#ffffff;
+        border-radius:.07in;
+        border:1px solid transparent;
+        box-shadow:4px 4px 4px rgba(0,0,0,.4);
+        margin:1em;
+        position:relative;
+        overflow:hidden;
+    }
+    #logo {
+        height:1.5in;
+        margin-top:1.5em;
+        float:left;
+        position:absolute;
+        right:-.5in;
+        transform:scale(-1,1);
+    }
+    h1,h2,h3,h4 {
+        margin: .125in .125in 0in 0in;
+    }
+    h1 { font-size:1.5em; }
+    h3 { 
+        text-transform:uppercase; 
+        font-weight:500; 
+        font-size:1em; 
+        margin-top:0px;
+        margin-bottom:.0125in;
+    }
+    #company {
+        margin-left:.125in;
+    }
+    .title {
+        font-size:13px; 
+    }
+    #name { 
+        position:absolute; 
+        bottom:0px;
+        margin:.125in .125in;
+    }
+    #contact {
+        position:absolute;
+        bottom:0px; 
+        left: 0px;
+        margin:.125in .125in .09in;
+        width:90%;
+    }
+    #phone {
+        background-image: url("data:image/svg+xml,%3Csvg%20%0A%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%0A%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%0A%20width%3D%22529px%22%20height%3D%22529px%22%3E%0A%3Cpath%20fill-rule%3D%22evenodd%22%20%20fill%3D%22rgb(0%2C%200%2C%200)%22%0A%20d%3D%22M264.500%2C-0.000%20C410.579%2C-0.000%20529.000%2C118.421%20529.000%2C264.500%20C529.000%2C410.579%20410.579%2C529.000%20264.500%2C529.000%20C118.421%2C529.000%20-0.000%2C410.579%20-0.000%2C264.500%20C-0.000%2C118.421%20118.421%2C-0.000%20264.500%2C-0.000%20Z%22%2F%3E%0A%3Cpath%20fill-rule%3D%22evenodd%22%20%20stroke%3D%22rgb(64%2C%2064%2C%2064)%22%20stroke-width%3D%220px%22%20stroke-linecap%3D%22butt%22%20stroke-linejoin%3D%22miter%22%20fill%3D%22rgb(255%2C%20255%2C%20255)%22%0A%20d%3D%22M424.117%2C206.127%20C423.960%2C199.638%20422.494%2C171.788%20408.824%2C166.626%20C380.679%2C156.008%20311.133%2C147.536%20264.092%2C147.536%20C217.044%2C147.536%20147.498%2C156.008%20119.352%2C166.626%20C105.668%2C171.796%20104.215%2C199.680%20104.061%2C206.145%20C103.830%2C208.029%20103.848%2C209.883%20104.174%2C211.551%20L106.850%2C224.773%20C108.270%2C232.014%20115.371%2C236.742%20122.715%2C235.342%20L184.426%2C223.557%20C191.765%2C222.160%20196.563%2C215.156%20195.146%2C207.919%20L191.940%2C191.591%20C197.632%2C190.809%20203.342%2C190.069%20208.994%2C189.391%20L207.151%2C215.809%20C207.151%2C215.809%20115.107%2C264.187%20115.107%2C282.170%20C115.107%2C300.149%20115.107%2C370.009%20115.107%2C370.009%20L264.092%2C370.009%20L413.070%2C370.009%20C413.070%2C370.009%20413.070%2C299.563%20413.070%2C282.170%20C413.070%2C264.779%20321.026%2C215.809%20321.026%2C215.809%20L319.181%2C189.391%20C324.837%2C190.069%20330.545%2C190.809%20336.237%2C191.591%20L333.031%2C207.919%20C331.611%2C215.156%20336.413%2C222.160%20343.749%2C223.557%20L405.462%2C235.342%20C412.805%2C236.742%20419.907%2C232.014%20421.328%2C224.773%20L424.003%2C211.551%20C424.327%2C209.883%20424.349%2C208.023%20424.117%2C206.127%20ZM264.092%2C185.341%20C269.814%2C185.341%20291.750%2C186.351%20298.252%2C187.166%20C298.252%2C187.050%20296.125%2C213.268%20296.075%2C213.191%20L264.092%2C213.191%20L232.103%2C213.191%20L230.121%2C187.149%20C242.527%2C186.019%20254.152%2C185.341%20264.092%2C185.341%20ZM264.094%2C333.985%20C240.331%2C333.985%20221.066%2C316.318%20221.066%2C294.525%20C221.066%2C272.731%20240.331%2C255.064%20264.094%2C255.064%20C287.857%2C255.064%20307.121%2C272.731%20307.121%2C294.525%20C307.121%2C316.318%20287.857%2C333.985%20264.094%2C333.985%20Z%22%2F%3E%0A%3C%2Fsvg%3E");
+        height:1rem;
+        width:1rem;
+        display:inline-block;
+        background-size:1rem;
+        position:relative;
+        top:4px;
+    }
+    #web {
+        background-image: url("data:image/svg+xml,%3Csvg%20%0A%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%0A%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%0A%20width%3D%22529px%22%20height%3D%22529px%22%3E%0A%3Cpath%20fill-rule%3D%22evenodd%22%20%20fill%3D%22rgb(0%2C%200%2C%200)%22%0A%20d%3D%22M264.500%2C-0.000%20C410.579%2C-0.000%20529.000%2C118.421%20529.000%2C264.500%20C529.000%2C410.579%20410.579%2C529.000%20264.500%2C529.000%20C118.421%2C529.000%20-0.000%2C410.579%20-0.000%2C264.500%20C-0.000%2C118.421%20118.421%2C-0.000%20264.500%2C-0.000%20Z%22%2F%3E%0A%3Ctext%20kerning%3D%22auto%22%20font-family%3D%22Myriad%20Pro%22%20fill%3D%22rgb(0%2C%200%2C%200)%22%20transform%3D%22matrix(%201.24318157243474%2C%200%2C%200%2C%201.24318157243474%2C64.0909484104413%2C%20391.182929602126)%22%20font-size%3D%22338px%22%3E%3Ctspan%20font-size%3D%22338px%22%20font-family%3D%22Webdings%22%20fill%3D%22%23FFFFFF%22%3E%26%2361694%3B%3C%2Ftspan%3E%3C%2Ftext%3E%0A%3C%2Fsvg%3E");
+        height:1rem;
+        width:1rem;
+        display:inline-block;
+        background-size:1rem;
+        position:relative;
+        top:4px;
+    }
+    #email {
+        background-image: url("data:image/svg+xml,%3Csvg%20%0A%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%0A%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%0A%20width%3D%22529px%22%20height%3D%22529px%22%3E%0A%3Cpath%20fill-rule%3D%22evenodd%22%20%20fill%3D%22rgb(0%2C%200%2C%200)%22%0A%20d%3D%22M264.500%2C-0.000%20C410.579%2C-0.000%20529.000%2C118.421%20529.000%2C264.500%20C529.000%2C410.579%20410.579%2C529.000%20264.500%2C529.000%20C118.421%2C529.000%20-0.000%2C410.579%20-0.000%2C264.500%20C-0.000%2C118.421%20118.421%2C-0.000%20264.500%2C-0.000%20Z%22%2F%3E%0A%3Cpath%20fill-rule%3D%22evenodd%22%20%20fill%3D%22rgb(255%2C%20255%2C%20255)%22%0A%20d%3D%22M339.866%2C251.560%20L457.540%2C176.369%20L457.540%2C366.675%20L339.866%2C251.560%20ZM73.741%2C161.729%20L456.583%2C161.729%20L265.164%2C284.047%20L73.741%2C161.729%20ZM72.280%2C367.173%20L72.606%2C176.250%20L190.458%2C251.560%20L72.280%2C367.173%20ZM265.116%2C299.266%20L265.116%2C299.325%20L265.164%2C299.296%20L265.212%2C299.325%20L265.212%2C299.266%20L330.438%2C257.584%20L443.249%2C367.943%20L87.079%2C367.943%20L199.886%2C257.584%20L265.116%2C299.266%20Z%22%2F%3E%0A%3C%2Fsvg%3E");
+        height:1rem;
+        width:1rem;
+        display:inline-block;
+        background-size:1rem;
+        position:relative;
+        top:4px;
+    }
+    .web { font-family: "Webdings"; }
+    .info { font-size:.8em; }
+    .fax2 {
+        background-image: url("data:image/svg+xml,%3Csvg%20%0A%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%0A%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%0A%20width%3D%22534px%22%20height%3D%22534px%22%3E%0A%3Cpath%20fill-rule%3D%22evenodd%22%20%20fill%3D%22rgb(0%2C%200%2C%200)%22%0A%20d%3D%22M264.500%2C-0.000%20C410.579%2C-0.000%20529.000%2C118.421%20529.000%2C264.500%20C529.000%2C410.579%20410.579%2C529.000%20264.500%2C529.000%20C118.421%2C529.000%20-0.000%2C410.579%20-0.000%2C264.500%20C-0.000%2C118.421%20118.421%2C-0.000%20264.500%2C-0.000%20Z%22%2F%3E%0A%3Cpath%20fill-rule%3D%22evenodd%22%20%20stroke%3D%22rgb(64%2C%2064%2C%2064)%22%20stroke-width%3D%2210px%22%20stroke-linecap%3D%22butt%22%20stroke-linejoin%3D%22miter%22%20fill%3D%22rgb(255%2C%20255%2C%20255)%22%0A%20d%3D%22M117.854%2C252.112%20L409.146%2C252.112%20C414.669%2C252.112%20419.146%2C256.589%20419.146%2C262.112%20L419.146%2C385.000%20C419.146%2C390.523%20414.669%2C395.000%20409.146%2C395.000%20L117.854%2C395.000%20C112.331%2C395.000%20107.854%2C390.523%20107.854%2C385.000%20L107.854%2C262.112%20C107.854%2C256.589%20112.331%2C252.112%20117.854%2C252.112%20Z%22%2F%3E%0A%3Cpath%20fill-rule%3D%22evenodd%22%20%20stroke%3D%22rgb(0%2C%200%2C%200)%22%20stroke-width%3D%228px%22%20stroke-linecap%3D%22butt%22%20stroke-linejoin%3D%22miter%22%20fill%3D%22rgb(0%2C%200%2C%200)%22%0A%20d%3D%22M355.366%2C306.172%20C374.709%2C324.941%20383.833%2C358.779%20363.421%2C359.891%20C361.671%2C361.056%20330.264%2C360.753%20323.145%2C353.810%20C318.983%2C349.751%20318.112%2C341.147%20316.097%2C329.484%20C299.579%2C315.184%20248.409%2C314.828%20218.428%2C325.430%20C213.050%2C331.169%20213.427%2C340.857%20210.372%2C351.783%20C201.898%2C360.660%20171.051%2C363.313%20163.048%2C358.878%20C159.033%2C357.363%20155.802%2C357.572%20156.000%2C345.701%20C159.022%2C329.629%20167.746%2C307.379%20176.138%2C306.172%20C210.005%2C291.152%20282.560%2C281.317%20355.366%2C306.172%20Z%22%2F%3E%0A%3Cpath%20fill-rule%3D%22evenodd%22%20%20stroke%3D%22rgb(64%2C%2064%2C%2064)%22%20stroke-width%3D%2210px%22%20stroke-linecap%3D%22butt%22%20stroke-linejoin%3D%22miter%22%20fill%3D%22rgb(255%2C%20255%2C%20255)%22%0A%20d%3D%22M172.922%2C93.000%20L354.078%2C93.000%20L354.078%2C261.000%20L172.922%2C261.000%20L172.922%2C93.000%20Z%22%2F%3E%0A%3Cpath%20fill-rule%3D%22evenodd%22%20%20stroke%3D%22rgb(0%2C%200%2C%200)%22%20stroke-width%3D%2210px%22%20stroke-linecap%3D%22butt%22%20stroke-linejoin%3D%22miter%22%20fill%3D%22rgb(255%2C%20255%2C%20255)%22%0A%20d%3D%22M210.000%2C219.000%20L210.000%2C206.000%20L317.000%2C206.000%20L317.000%2C219.000%20L210.000%2C219.000%20ZM210.000%2C169.000%20L317.000%2C169.000%20L317.000%2C182.000%20L210.000%2C182.000%20L210.000%2C169.000%20ZM210.000%2C132.000%20L317.000%2C132.000%20L317.000%2C145.000%20L210.000%2C145.000%20L210.000%2C132.000%20Z%22%2F%3E%0A%3C%2Fsvg%3E");
+        height:1rem;
+        width:1rem;
+        display:inline-block;
+        background-size:1rem;
+        position:relative;
+        top:4px;
+
+    }
+    .fax { 
+        background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAMAAADXqc3KAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA+ppVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQ4IDc5LjE2NDAzNiwgMjAxOS8wOC8xMy0wMTowNjo1NyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgMjEuMCAoTWFjaW50b3NoKSIgeG1wOkNyZWF0ZURhdGU9IjIwMjAtMDctMTFUMjE6NDQ6MTQtMDc6MDAiIHhtcDpNb2RpZnlEYXRlPSIyMDIwLTA3LTEyVDA0OjUyOjM4LTE3OjAwIiB4bXA6TWV0YWRhdGFEYXRlPSIyMDIwLTA3LTEyVDA0OjUyOjM4LTE3OjAwIiBkYzpmb3JtYXQ9ImltYWdlL3BuZyIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpGNUY5MDU4N0JDMUUxMUVBQTkyNkEwQjhCQUVBM0VCOSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpGNUY5MDU4OEJDMUUxMUVBQTkyNkEwQjhCQUVBM0VCOSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkY1RjkwNTg1QkMxRTExRUFBOTI2QTBCOEJBRUEzRUI5IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkY1RjkwNTg2QkMxRTExRUFBOTI2QTBCOEJBRUEzRUI5Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+emGcCQAAAAZQTFRFAAAA////pdmf3QAAAAJ0Uk5T/wDltzBKAAAARklEQVR42mJgBAIGNAAWIyDBiARQJZCUEykxVIwiBzBiAwgJNGVQJpZQB9NYDIc6HFMGIYFsKwEJRhiJ4h5c/sDjbYAAAwBF4QEHVaiGvQAAAABJRU5ErkJggg==");
+        height:13px;
+        width:13px;
+        display:inline-block;
+        background-size:13px;
+        position:relative;
+        top:2px;
+        left:2px;
+    }
+    .email {
+        float:right;
+        margin-top:2px;
+    }
+
+</style>
+    </head>
+    <body>
+        <div class='card'>
+            <img id='logo' src='bus2.png' />
+            <div id='company'>
+                <h1>D Harris Tours, Inc.</h1>
+                <hr/>
+                <div id='info'>
+                    <span class='info'><span id='web'></span> https://dharristours.com</span><br>
+                    <span class='info'><span id='email'> </span> info@dharristours.com</span><br>
+                    <span class='info'><span id='phone'></span> (415) 902-8542</span><br>
+                    <span style='display:none;' class='info'><span class='fax2'></span> (415) 902-8542</span><br>
+                </div>
+            </div>
+            <div id='name'>
+                <h3>Patrick Peterson</h3>
+                <!--div class='title'>General Manager</div-->
+                <br>
+            </div>
+            <div id='contact'>
+                <span class='info'>&#9742; (707) 656-3848</span>
+                <span class='info email'>&#9993; patrick@dharristours.com</span>
+            </div>
+        </div>
+    </body>
+</html>
+
